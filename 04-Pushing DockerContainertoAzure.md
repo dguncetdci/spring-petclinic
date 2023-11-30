@@ -23,7 +23,7 @@ az login
 ### 2. Tag Your Docker Image
 Replace `<image_name>` with the name of your local Docker image.
 ```bash
-docker tag <image_name> $AZ_CONTAINER_REGISTRY.azurecr.io/<image_name>:v1
+docker tag java-docker $AZ_CONTAINER_REGISTRY.azurecr.io/java-docker:latest
 ```
 
 ### 3. Log in to Azure Container Registry
