@@ -5,9 +5,9 @@
 Set the following environment variables in your local environment:
 
 ```bash
-export AZ_RESOURCE_GROUP=javacontainerizationdemorg
+export AZ_RESOURCE_GROUP=<AZ_RESOURCE_GROUP>
 export AZ_CONTAINER_REGISTRY=<YOUR_CONTAINER_REGISTRY>
-export AZ_KUBERNETES_CLUSTER=javacontainerizationdemoaks
+export AZ_KUBERNETES_CLUSTER=<AZ_KUBERNETES_CLUSTER>
 export AZ_LOCATION=<YOUR_AZURE_REGION>
 export AZ_KUBERNETES_CLUSTER_DNS_PREFIX=<YOUR_UNIQUE_DNS_PREFIX_TO_ACCESS_YOUR_AKS_CLUSTER>
 ```
