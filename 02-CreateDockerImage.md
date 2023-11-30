@@ -7,16 +7,6 @@
 docker build --tag java-docker .
 ```
 
-This command sends the build context to the Docker daemon. The output should be similar to:
-
-```
-Sending build context to Docker daemon  5.632kB
-Step 1/7 : FROM eclipse-temurin:17-jdk-jammy
-Step 2/7 : WORKDIR /app
-...
-Successfully built a0bb458aabd0
-Successfully tagged java-docker:latest
-```
 
 ## Viewing Local Images
 
