@@ -69,6 +69,17 @@ spec:
 ```
 Replace `<YOUR_ACR_NAME>` with your Azure Container Registry name.
 
+#### Substeps for Using Environment Variables in the YAML File
+- **Set Your Environment Variable in Bash**:
+    ```bash
+    export LOGIN_SERVER=your_acr_name_here.azurecr.io
+    ```
+
+- **Replace the Placeholder in the YAML File**:
+    ```bash
+    sed -i "s/<LOGIN_SERVER>/$LOGIN_SERVER/g" deployment.yaml
+    ```
+
 ### 2. Apply the Deployment File
 Deploy your application in AKS:
 
